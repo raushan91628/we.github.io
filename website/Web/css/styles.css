@@ -1,0 +1,54 @@
+body {
+  /* background-color:rgba(218, 220, 225, 0.304); */
+  overflow-x: hidden;
+}
+
+/* Home section styles */
+#home {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#home h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+#home p {
+  font-size: 1rem;
+  color: white;
+  max-width: 50%;
+}
+
+/* Services section styles */
+.box {
+  background-color: rgb(40, 54, 247);
+  color: white;
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* About section styles */
+.image {
+  height: 22rem;
+}
+
+
+/* Latest update section styles */
+.image {
+  height: 22rem;
+}
+
